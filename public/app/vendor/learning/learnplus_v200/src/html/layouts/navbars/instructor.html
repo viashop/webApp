@@ -1,0 +1,39 @@
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-primary navbar-full navbar-fixed-top{% if navbarOptions %} {{ navbarOptions }}{% endif %}">
+
+	<!-- Toggle sidebar -->
+	<button class="navbar-toggler" type="button" data-toggle="sidebar"></button>
+
+	<!-- Brand -->
+	<a href="{{ prefix or '' }}dashboard.html" class="navbar-brand"><i class="material-icons">school</i> LearnPlus</a>
+
+	<ul class="nav navbar-nav hidden-sm-down">
+		<li class="nav-item">
+			<div class="nav-stats">$591 <small>GROSS</small></div>
+		</li>
+		<li class="nav-item">
+			<div class="nav-stats">$31 <small>TAXES</small></div>
+		</li>
+		<li class="nav-item">
+			<div class="nav-stats">$560 <small>NET</small></div>
+		</li>
+	</ul>
+
+	<div class="navbar-spacer"></div>
+	
+	<!-- Menu --> 
+	<ul class="nav navbar-nav hidden-sm-down">
+		<li class="nav-item{% if (slug.includes('forum')) %} active{% endif %}">
+			<a class="nav-link" href="{{ prefix or '' }}forum.html">Forum</a>
+		</li>
+		<li class="nav-item{% if (slug.includes('help-center')) %} active{% endif %}">
+			<a class="nav-link" href="{{ prefix or '' }}help-center.html">Get Help</a>
+		</li>
+	</ul>
+
+	<!-- Menu -->
+	<ul class="nav navbar-nav">
+		{% include 'partials/navbar.user.html' %}
+	</ul>
+</nav>
+<!-- // END Navbar -->

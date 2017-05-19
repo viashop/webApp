@@ -1,0 +1,6 @@
+// chart container
+// reset z-index (fixes overlapping tooltip)
+.chart {
+  position: relative;
+  z-index: 0;
+}

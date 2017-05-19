@@ -1,0 +1,13 @@
+.calendar-sidebar-header {
+  background-color: rgba(0, 0, 0, .1);
+  padding: $sidebar-spacing;
+  display: flex;
+  color: $sidebar-light-text-color;
+  border-bottom: 1px solid $sidebar-light-border-color;
+  @include hover {
+    text-decoration: none;
+  }
+  .material-icons {
+    margin-left: auto;
+  }
+}

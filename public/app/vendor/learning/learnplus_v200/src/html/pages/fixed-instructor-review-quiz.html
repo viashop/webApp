@@ -1,0 +1,26 @@
+---
+title: Instructor - Review quiz - Fixed layout
+slug: instructor-review-quiz
+prefix: fixed-instructor-
+---
+{% extends "layouts/instructor/fixed.html" %}
+
+{% block page %}
+  {% include "partials/page.instructor-review-quiz.html" %}
+{% endblock %}
+
+{% block vendor_styling %}
+   <!-- Datepicker -->
+  <link rel="stylesheet" href="assets/vendor/nouislider.min.css">
+  <link rel="stylesheet" href="examples/css/nouislider.min.css">
+{% endblock %}
+
+{% block vendor_scripts %}
+  <!-- Vendor JS -->
+  <script src="assets/vendor/nouislider.min.js"></script>
+{% endblock%}
+
+{% block example_scripts %}
+  <!-- Init -->
+  <script src="examples/js/slider.js"></script>
+{% endblock %}

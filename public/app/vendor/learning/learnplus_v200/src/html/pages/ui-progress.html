@@ -1,0 +1,33 @@
+---
+title: Progress Bars - Components
+slug: ui-progress
+prefix: student-
+---
+{% extends "layouts/components.html" %}
+
+{% block page %}
+<!-- Breadcrumb -->
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">Progress</li>
+</ol>
+<div class="jumbotron">
+  <h1>Progress</h1>
+  <p class="lead">Visual indicators to provide feedback on some activity progress.</p>
+</div>
+<div class="card">
+  <div class="card-block">
+    <progress class="progress" value="0" max="100">0%</progress>
+    <progress class="progress progress-primary" value="25" max="100">25%</progress>
+    <progress class="progress progress-gray" value="50" max="100">50%</progress>
+    <progress class="progress progress-success" value="75" max="100">75%</progress>
+    <progress class="progress progress-danger" value="100" max="100">100%</progress>
+    <hr>
+    <progress class="progress progress-striped progress-primary" value="10" max="100">10%</progress>
+    <progress class="progress progress-striped progress-success" value="25" max="100">25%</progress>
+    <progress class="progress progress-striped progress-gray" value="50" max="100">50%</progress>
+    <progress class="progress progress-striped progress-warning" value="75" max="100">75%</progress>
+    <progress class="progress progress-striped progress-danger" value="100" max="100">100%</progress>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="{{ prefix or '' }}dashboard.html">Home</a></li>
+  <li class="breadcrumb-item active">Payment History</li>
+</ol>
+<h4  class="page-heading">Payment History</h4>
+<div class="card card-stats-danger">
+  <div class="card-block">
+    <div class="media">
+      <div class="media-body media-middle">
+        Please pay your amount due 
+        <strong class="text-danger">$25.00</strong> with invoice <a href="#">#8331</a>  
+      </div>
+      <div class="media-right">
+        <a href="{{ prefix or '' }}pay.html" class="btn btn-success float-xs-right">Pay Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th class="text-xs-center">Amount</th>
+        <th class="text-xs-center">Status</th>
+        <th class="text-xs-center">View</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>12th February, 2016</td>
+        <td class="text-xs-center">$25</td>
+        <td class="text-xs-center"><i class="material-icons text-success md-18">lens</i></td>
+        <td class="text-xs-center"><a href="{{ prefix or '' }}invoice.html">#12199</a></td>
+      </tr>
+      <tr>
+        <td>12th January, 2016</td>
+        <td class="text-xs-center">$25</td>
+        <td class="text-xs-center"><i class="material-icons text-danger md-18">lens</i></td>
+        <td class="text-xs-center"><a href="{{ prefix or '' }}invoice.html">#8331</a></td>
+      </tr>
+      <tr>
+        <td>12th December, 2015</td>
+        <td class="text-xs-center">$25</td>
+        <td class="text-xs-center"><i class="material-icons text-success md-18">lens</i></td>
+        <td class="text-xs-center"><a href="{{ prefix or '' }}invoice.html">#2421</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ title }}</title>
+
+  {% include "layouts/_header.html" %}
+
+  {% block vendor_styling %}{% endblock %}
+
+  {% block header_scripts %}{% endblock %}
+
+</head>
+<body class="top-navbar">
+
+  {% include "layouts/navbars/student.html" %}
+
+  <div class="mdk-drawer-layout mdk-js-drawer-layout" push has-scrolling-region>
+    <div class="mdk-drawer-layout__content">
+      <div class="container-fluid">
+        {% block page %}{% endblock %}
+      </div>
+    </div>
+    {% include "layouts/sidebars/student.html" %}
+  </div>
+
+  {% include "layouts/_footer.html" %}
+
+  {% block vendor_scripts %}{% endblock %}
+
+  {% block example_scripts %}{% endblock %}
+
+  {% block footer %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,75 @@
+/////////////////
+// NAVBAR DARK //
+/////////////////
+
+.navbar-dark {
+
+  /////////////////
+  // SEARCH FORM //
+  /////////////////
+	
+  .navbar-search-form {
+		.form-control {
+			background: rgba(0, 0, 0, .2);
+			color: rgba(255, 255, 255, .5);
+			border-color: rgba(0, 0, 0, .05);
+			&::placeholder {
+				color: rgba(255, 255, 255, .5);
+			}
+			&:focus {
+				background: #fff;
+				color: rgba(0, 0, 0, .84);
+				&::placeholder {
+					color: rgba(0, 0, 0, .84);
+				}
+			}
+		}
+    .btn {
+      background: transparent;
+      color: rgba(255, 255, 255, .4);
+    }
+    .form-control:focus + .btn { 
+      color: rgba(0,0,0, .24);
+      &:hover {
+        color: rgba(0,0,0, .84);
+      }
+    }
+	}
+
+  //////////////////////
+  // COLLAPSIBLE MENU //
+  //////////////////////
+	
+  .navbar-toggleable-xs {
+		background: $brand-primary;
+	}
+
+  /////////
+  // NAV //
+  /////////
+
+	.navbar-nav .nav-link:hover {
+		color: #fff;
+	}
+
+  //////////////
+  // DROPDOWN //
+  //////////////
+	
+  .dropdown-item:hover {
+		color: $brand-primary;
+		background:none;
+	}
+
+  //////////////////////
+  // INSTRUCTOR STATS //
+  //////////////////////
+	
+  .nav-stats {
+		background: rgba(0,0,0, .2);
+        color: #fff;
+		small {
+			opacity:.54;
+		}
+	}
+}

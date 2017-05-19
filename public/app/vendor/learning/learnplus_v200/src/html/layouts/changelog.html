@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ title }}</title>
+
+  {% include "layouts/_header.html" %}
+
+  {% block vendor_styling %}{% endblock %}
+
+  {% block header_scripts %}{% endblock %}
+
+</head>
+<body class="ls-top-navbar">
+  
+  <div class="container">
+    {% block page %}{% endblock %}
+    <div class="footer">
+      Copyright &copy; 2016 - <a href="http://themeforest.net/item/learnplus-learning-management-application/15287372?ref=mosaicpro">Purchase LearnPlus</a>
+    </div>
+  </div>
+
+  {% include "layouts/_footer.html" %}
+
+  {% block vendor_scripts %}{% endblock %}
+
+  {% block example_scripts %}{% endblock %}
+
+  {% block footer %}{% endblock %}
+</body>
+</html>

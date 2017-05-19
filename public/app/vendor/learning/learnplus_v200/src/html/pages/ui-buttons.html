@@ -1,0 +1,205 @@
+---
+title: Buttons - Components
+slug: ui-buttons
+prefix: student-
+---
+{% extends "layouts/components.html" %}
+
+{% block page %}
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">Buttons</li>
+</ol>
+
+<div class="jumbotron">
+  <h1>Buttons</h1>
+  <p class="lead">Use any of the available button classes to quickly create a styled button, whether it's a regular, rounded or circle button. Group a series of buttons together on a single line with the button group. Add on optional JavaScript radio and checkbox style behavior.</p>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">Simple buttons</h5>
+  </div>
+  <div class="card-block">
+    <button type="button" class="btn btn-white">White</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+    <hr>
+
+    <button type="button" class="btn btn-sm btn-white">White</button>
+    <button type="button" class="btn btn-sm btn-primary">Primary</button>
+    <button type="button" class="btn btn-sm btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-sm btn-success">Success</button>
+    <button type="button" class="btn btn-sm btn-info">Info</button>
+    <button type="button" class="btn btn-sm btn-warning">Warning</button>
+    <button type="button" class="btn btn-sm btn-danger">Danger</button>
+    <button type="button" class="btn btn-sm btn-link">Link</button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">Buttons with icons</h5>
+  </div>
+  <div class="card-block">
+    <button type="button" class="btn btn-white">
+      <i class="material-icons btn__icon--left">edit</i> White
+    </button>
+    <button type="button" class="btn btn-primary">
+      <i class="material-icons btn__icon--left">home</i> Primary
+    </button>
+    <button type="button" class="btn btn-secondary">
+      <i class="material-icons btn__icon--left">list</i> Secondary
+    </button>
+    <button type="button" class="btn btn-success">
+      <i class="material-icons btn__icon--left">done</i> Success
+    </button>
+    <button type="button" class="btn btn-info">
+      <i class="material-icons btn__icon--left">map</i> Info
+    </button>
+    <button type="button" class="btn btn-warning">
+      <i class="material-icons btn__icon--left">notifications</i> Warning
+    </button>
+    <button type="button" class="btn btn-danger ">
+      <i class="material-icons btn__icon--left">error_outline</i> Danger
+    </button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h4 class="card-title">Button dropdown</h4>
+  </div>
+  <div class="card-block">
+    <div class="btn-group">
+      <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Default</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Success</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Warning</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danger</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">Rounded Buttons</h5>
+  </div>
+  <div class="card-block">
+    <h6>Deep radius</h6>
+    <button type="button" class="btn btn-white btn-rounded-deep">White</button>
+    <button type="button" class="btn btn-primary btn-rounded-deep">Primary</button>
+    <button type="button" class="btn btn-secondary btn-rounded-deep">Secondary</button>
+    <button type="button" class="btn btn-success btn-rounded-deep">Success</button>
+    <button type="button" class="btn btn-info btn-rounded-deep">Info</button>
+    <button type="button" class="btn btn-warning btn-rounded-deep">Warning</button>
+    <button type="button" class="btn btn-danger btn-rounded-deep">Danger</button>
+    <hr>
+
+    <h6>Circle Button with Icon</h6>
+    <button type="button" class="btn btn-white btn-circle">
+      <i class="material-icons">email</i>
+    </button>
+    <button type="button" class="btn btn-primary btn-circle">
+      <i class="material-icons">person</i>
+    </button>
+    <button type="button" class="btn btn-secondary btn-circle">
+      <i class="material-icons">mail_outline</i>
+    </button>
+    <button type="button" class="btn btn-success btn-circle">
+      <i class="material-icons">list</i>
+    </button>
+    <button type="button" class="btn btn-info btn-circle">
+      <i class="material-icons">notifications</i>
+    </button>
+    <button type="button" class="btn btn-warning btn-circle">
+      <i class="material-icons">chevron_right</i>
+    </button>
+    <button type="button" class="btn btn-danger btn-circle">
+      <i class="material-icons">home</i>
+    </button>
+    <hr>
+
+    <h6>Large Circle Buttons with Icon</h6>
+    <button type="button" class="btn btn-white btn-circle-large">
+      <i class="material-icons">email</i>
+    </button>
+    <button type="button" class="btn btn-primary btn-circle-large">
+      <i class="material-icons">person</i>
+    </button>
+    <button type="button" class="btn btn-secondary  btn-circle-large">
+      <i class="material-icons">mail_outline</i>
+    </button>
+    <button type="button" class="btn btn-success  btn-circle-large">
+      <i class="material-icons">list</i>
+    </button>
+    <button type="button" class="btn btn-info  btn-circle-large">
+      <i class="material-icons">notifications</i>
+    </button>
+    <button type="button" class="btn btn-warning  btn-circle-large">
+      <i class="material-icons">chevron_right</i>
+    </button>
+    <button type="button" class="btn btn-danger  btn-circle-large">
+      <i class="material-icons">home</i>
+    </button>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+---
+title: Instructor - Edit quiz - Fixed layout
+slug: instructor-quiz-edit
+prefix: fixed-instructor-
+---
+{% extends "layouts/instructor/fixed.html" %}
+
+{% block page %}
+  {% include "partials/page.instructor-quiz-edit.html" %}
+{% endblock %}
+
+{% block footer %}
+  {% include "partials/modal.instructor-quiz-edit.html" %}
+{% endblock %}
+
+{% block vendor_styling %}
+  <!-- Touchspin -->
+  <link rel="stylesheet" href="examples/css/bootstrap-touchspin.min.css">
+
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="examples/css/nestable.min.css">
+{% endblock %}
+
+{% block vendor_scripts %}
+  <!-- Vendor JS -->
+  <script src="assets/vendor/jquery.nestable.js"></script>
+  <script src="assets/vendor/jquery.bootstrap-touchspin.js"></script>
+{% endblock%}
+
+{% block example_scripts %}
+  <!-- Initialize -->
+  <script src="examples/js/nestable.js"></script>
+  <script src="examples/js/touchspin.js"></script>
+{% endblock %}

@@ -1,0 +1,63 @@
+<!-- Sidebar -->
+<div class="mdk-drawer mdk-js-drawer" align="end" id="chat-drawer">
+  <div class="mdk-drawer__content">
+    <div class="sidebar sidebar-right sidebar-light bg-white sidebar-p-y">
+      <div class="sidebar-heading">Online</div>
+      <ul class="list-group list-group-fit">
+        <li class="list-group-item">
+          <a href="#">
+            <span class="media">
+              <span class="media-left">
+                <img src="assets/images/people/50/guy-8.jpg" alt="" class="rounded-circle" width="35">
+              </span>
+              <span class="media-body media-middle">Andrew Brain</span>
+            </span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <span class="media">
+              <span class="media-left">
+                <img src="assets/images/people/50/guy-2.jpg" alt="" class="rounded-circle" width="35">
+              </span>
+              <span class="media-body media-middle">Jimmy Carter</span>
+            </span>
+          </a>
+        </li>
+        <li class="list-group-item active">
+          <a href="#">
+            <span class="media">
+              <span class="media-left">
+                <img src="assets/images/people/50/woman-5.jpg" alt="" class="rounded-circle" width="35">
+              </span>
+              <span class="media-body media-middle">Michelle Smith</span>
+            </span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <span class="media">
+              <span class="media-left">
+                <img src="assets/images/people/50/woman-2.jpg" alt="" class="rounded-circle" width="35">
+              </span>
+              <span class="media-body media-middle">Samantha Doe</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted"><small>21 OFFLINE</small></p>
+    </div>
+  </div>
+</div>
+<!-- // END Sidebar -->
+
+<script>
+  var drawerNode = document.querySelector('#chat-drawer')
+  var chatReply = document.querySelector('#chat-reply')
+  drawerNode.addEventListener('domfactory-component-upgraded', function () {
+    var drawer = drawerNode.mdkDrawer
+    drawerNode.addEventListener('mdk-drawer-change', function () {
+      chatReply.style.right = drawer.opened ? drawer.getWidth() + 'px' : 0
+    })
+  })
+</script>

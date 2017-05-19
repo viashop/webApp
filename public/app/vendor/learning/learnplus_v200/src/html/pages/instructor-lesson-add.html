@@ -1,0 +1,34 @@
+---
+title: Instructor - Add lesson
+slug: instructor-lesson-add
+prefix: instructor-
+---
+{% extends "layouts/instructor/fluid.html" %}
+
+{% block page %}
+  {% include "partials/page.instructor-lesson-add.html" %}
+{% endblock %}
+
+{% block vendor_styling %}
+  <!-- Vendor Dropzone CSS -->
+  <link rel="stylesheet" href="assets/vendor/dropzone.min.css">
+  <link rel="stylesheet" href="examples/css/dropzone.min.css">
+
+  <!-- Vendor FancyTree CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="examples/css/fancytree.min.css">
+{% endblock %}
+
+{% block vendor_scripts %}
+  <!-- Required by Calendar (fullcalendar) -->
+  <script src="assets/vendor/dropzone.min.js"></script>
+
+  <!-- TREE JS -->
+  <script src="https://cdn.jsdelivr.net/jquery.ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="assets/vendor/jquery.fancytree-all.min.js"></script>
+{% endblock%}
+
+{% block example_scripts %}
+  <!-- Init -->
+  <script src="examples/js/fancytree.js"></script>
+{% endblock %}

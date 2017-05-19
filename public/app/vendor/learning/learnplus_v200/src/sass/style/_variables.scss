@@ -1,0 +1,181 @@
+///////////////////////////////////
+// MATERIAL DESIGN COLOR PALETTE //
+///////////////////////////////////
+
+@import 'sass-md-colors/colors/variables';
+
+///////////////////////////////////////////////////////////////////////////
+// VARIABLE OVERRIDES MUST GO HERE, BEFORE LOADING ANY DEFAULT VARIABLES //
+///////////////////////////////////////////////////////////////////////////
+
+// i.e. $brand-primary: $red-500;
+
+$brand-primary:                     $blue-500 !default;
+$brand-danger:                      $red-500 !default;
+$brand-success:                     $green-400 !default;
+$brand-warning:                     $orange-400 !default;
+$brand-info:                        $light-blue-400 !default;
+$brand-secondary:                   darken($brand-primary,18%) !default;
+
+$state-success-bg:                  lighten($brand-success, 35%) !default;
+$state-info-bg:                     lighten($brand-primary, 40%) !default;
+$state-warning-bg:                  lighten($brand-warning, 38%) !default;
+$state-danger-bg:                   lighten($brand-danger, 38%) !default;
+
+$state-success-text:                darken($brand-success, 13%) !default;
+$state-success-bg:                  lighten($brand-success, 48%) !default;
+$state-success-border:              $state-success-bg !default;
+
+$state-primary-text:                darken($brand-primary, 13%) !default;
+$state-info-bg:                     lighten($brand-primary, 48%) !default;
+$state-info-border:                 $state-info-bg !default;
+
+$state-warning-text:                darken($brand-warning, 13%) !default;
+$state-warning-bg:                  lighten($brand-warning, 44%) !default;
+$state-warning-border:              $state-warning-bg !default;
+
+$state-danger-text:                 darken($brand-danger, 13%) !default;
+$state-danger-bg:                   lighten($brand-danger, 40%) !default;
+$state-danger-border:               $state-danger-bg !default;
+
+$gray-light:                        #818a91 !default;
+$gray-dark:                         #373a3c !default;
+$gray-lighter:                      #eceeef !default;
+$gray-lightest:                     #f7f7f9 !default;
+
+$link-color:                        $light-blue-500 !default;
+$body-bg:                           #f9f9f9 !default;
+$body-color:                        $gray-dark !default;
+$text-muted:                        $gray-light !default;
+$text-muted-light:                  lighten($text-muted, 20%) !default;
+
+////////////
+// BORDER //
+////////////
+
+$border-color:                      #e5e5e5 !default;
+$dropdown-border-color:             $border-color !default;
+
+//////////
+// FONT //
+//////////
+
+$font-family-base:                  Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif !default;
+$font-size-root:                    16px !default;
+$font-size-base:                    1rem !default;
+
+//////////////
+// HEADINGS //
+//////////////
+
+$headings-font-weight:              400 !default;
+
+///////////
+// INPUT //
+///////////
+
+$input-border-color:                $gray-lighter !default;
+$input-group-addon-border-color:    $input-border-color !default;
+
+////////////////
+// PAGINATION //
+////////////////
+
+$pagination-border-color:           #eee !default;
+$pagination-disabled-bg:            #efefef !default;
+
+///////////
+// CARDS //
+///////////
+
+$card-spacer:                       .625rem !default;
+$card-border-color:                 #eee !default;
+$card-border-radius:                3px !default;
+$card-nav-link:                     $text-muted !default;
+$card-nav-link-hover:               $brand-primary !default;
+
+////////////////
+// LIST GROUP //
+////////////////
+
+$list-group-border-color:           $card-border-color !default;
+$list-group-border-radius:          0 !default;
+
+//////////
+// NAVS //
+//////////
+
+$nav-tabs-active-link-hover-color:  $brand-primary !default;
+$nav-tabs-active-link-border-color: $brand-primary !default;
+$nav-tabs-border-color:             #efefef !default;
+$nav-disabled-link-color:           $text-muted-light !default;
+
+////////////////
+// BREADCRUMB //
+////////////////
+
+$breadcrumb-active-color:           rgba(0, 0, 0, 0.54) !default;
+$breadcrumb-divider:                '>' !default;
+$breadcrumb-divider-color:          rgba(0, 0, 0, 0.24) !default;
+$breadcrumb-bg:                     transparent !default;
+
+///////////////
+// JUMBOTRON //
+///////////////
+
+$jumbotron-bg:                      darken($body-bg, 2%) !default;
+$jumbotron-border:                  1px solid rgba(0,0,0, .05) !default;
+
+/////////////
+// BUTTONS //
+/////////////
+
+$btn-padding-y:                     4px !default;
+$btn-padding-x:                     10px !default;
+$btn-padding-y-sm:                  2px !default;
+$btn-padding-x-sm:                  5px !default;
+
+$btn-secondary-color:               #fff !default;
+$btn-secondary-bg:                  $brand-secondary !default;
+$btn-secondary-border:              $brand-secondary !default;
+
+//////////
+// GRID //
+//////////
+
+$grid-gutter-width:                 1.25rem !default;
+
+/////////////
+// SIDEBAR //
+/////////////
+
+$sidebar-light-heading-color:       $text-muted-light !default;
+
+$sm-light-button-color:             rgba(0, 0, 0, .54) !default;
+$sm-light-icon-color:               $text-muted !default;
+$sm-light-open-button-color:        rgba(0, 0, 0, .54) !default;
+$sm-light-hover-button-color:       rgba(0, 0, 0, .80) !default;
+$sm-light-hover-icon-color:         rgba(0, 0, 0, .80) !default;
+$sm-light-hover-button-bg:          transparent !default;
+$sm-light-open-bg:                  transparent !default;
+
+////////////
+// NAVBAR //
+////////////
+
+$navbar-height:                     56px !default;
+$navbar-line-height:                56px !default;
+$navbar-box-shadow:                 0 2px 3px rgba(0,0,0, .2) !default;
+$navbar-dark-toggler-border: 		transparent !default;
+$navbar-toggler-padding-y: 			0 !default;
+$navbar-toggler-padding-x: 			0 !default;
+
+///////////////////////
+// DEFAULT VARIABLES //
+///////////////////////
+
+// Bootstrap
+@import 'bootstrap/scss/variables';
+
+// Sidebar style
+@import 'sidebar-style-guide/sass/variables';

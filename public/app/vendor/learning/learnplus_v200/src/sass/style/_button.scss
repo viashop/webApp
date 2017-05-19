@@ -1,0 +1,98 @@
+/////////////
+// GENERAL //
+/////////////
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn--col {
+  flex-direction: column;
+}
+.btn-block-text {
+  flex: 1;
+}
+
+///////////
+// STYLE //
+///////////
+
+.btn-white {
+  @include button-variant($gray-light, #fff, $gray-lighter);
+  &.active {
+    @include plain-hover-focus {
+      background: $brand-primary;
+      color: #fff;
+      border-color: darken($brand-primary, 10%) !important;
+    }
+  }
+}
+
+.btn-default {
+  @extend .btn-white;
+}
+
+//////////////
+// DROPDOWN //
+//////////////
+
+.btn.dropdown-toggle::after {
+  align-self: center;
+}
+
+///////////
+// ICONS //
+///////////
+
+.btn .material-icons {
+  font-size: 20px;
+  align-self: center;
+}
+
+.btn-sm .material-icons { 
+  font-size: 16px;
+}
+
+/////////////
+// ROUNDED //
+/////////////
+
+.btn-rounded-deep {
+  border-radius: 20px;
+}
+
+////////////
+// CIRCLE //
+////////////
+
+.btn-circle {
+  border-radius: 100%;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  .material-icons {
+    flex: 1;
+  }
+  &-large {
+    border-radius: 100%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    .material-icons {
+      font-size: 28px;
+      flex: 1;
+    }
+  }
+}
+
+///////////////////
+// TEXT SPACINGS //
+///////////////////
+
+.btn__icon--left {
+  margin-right: 5px;
+}
+.btn__icon--right {
+  margin-left: 5px;
+}

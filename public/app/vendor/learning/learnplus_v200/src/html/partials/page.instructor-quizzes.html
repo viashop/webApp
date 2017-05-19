@@ -1,0 +1,90 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="{{ prefix or '' }}dashboard.html">Home</a></li>
+  <li class="breadcrumb-item active">Quizzes</li>
+</ol>
+<div class="media">
+  <div class="media-body media-middle">
+    <h1 class="page-heading h2">Quizzes</h1>
+  </div>
+  <div class="media-right media-middle">
+    <a href="{{ prefix or '' }}quiz-edit.html" class="btn btn-success">New Quiz <i class="material-icons btn__icon--right">add</i></a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-9">
+    <div class="card-columns">
+      <div class="card">
+        <div class="card-block media">
+          <div class="media-left media-middle">
+            <a href="{{ prefix or '' }}review-quiz.html">
+              <img src="assets/images/vuejs.png" alt="Card image cap" width="80" class="rounded">
+            </a>
+          </div>
+          <div class="media-body media-middle">
+            <h4 class="card-title mb-0"><a href="{{ prefix or '' }}review-quiz.html">Vue.js Deploy Quiz</a></h4>
+            <small class="text-muted">25 Completed</small>
+          </div>
+        </div>
+        <div class="card-footer text-xs-center">
+          <a href="{{ prefix or '' }}review-quiz.html" class="btn btn-primary btn-sm float-xs-left"><i class="material-icons btn__icon--left">playlist_add_check</i> Review <span class="tag text-primary bg-white btn__icon--right">5</span></a> 
+          <a href="{{ prefix or '' }}quiz-edit.html" class="btn btn-default btn-sm float-xs-right"><i class="material-icons btn__icon--left">edit</i> Edit </a> 
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block media">
+          <div class="media-left media-middle">
+            <a href="{{ prefix or '' }}review-quiz.html">
+              <img src="assets/images/github.png" alt="Card image cap" width="80" class="rounded">
+            </a>
+          </div>
+          <div class="media-body media-middle">
+            <h4 class="card-title mb-0"><a href="{{ prefix or '' }}review-quiz.html">GitHub Basic Setup</a></h4>   
+            <small class="text-muted">410 Completed</small>
+          </div>
+        </div>
+        <div class="card-footer text-xs-center">
+          <a href="{{ prefix or '' }}review-quiz.html" class="btn btn-primary btn-sm float-xs-left"><i class="material-icons btn__icon--left">playlist_add_check</i> Review <span class="tag text-primary bg-white btn__icon--right">5</span></a> 
+          <a href="{{ prefix or '' }}quiz-edit.html" class="btn btn-default btn-sm float-xs-right"><i class="material-icons btn__icon--left">edit</i> Edit </a> 
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block media">
+          <div class="media-left">
+            <a href="{{ prefix or '' }}review-quiz.html">
+              <img src="assets/images/gulp.png" alt="Card image cap" width="80" class="rounded">
+            </a>
+          </div>
+          <div class="media-body media-middle">
+            <h4 class="card-title mb-0"><a href="{{ prefix or '' }}review-quiz.html">Gulp Front-End Boilerplate</a></h4>
+            <small class="text-muted">50 Completed</small>
+          </div>
+        </div>
+        <div class="card-footer text-xs-center">
+          <a href="{{ prefix or '' }}review-quiz.html" class="btn btn-primary btn-sm float-xs-left"><i class="material-icons btn__icon--left">playlist_add_check</i> Review <span class="tag text-primary bg-white btn__icon--right">5</span></a> 
+          <a href="{{ prefix or '' }}quiz-edit.html" class="btn btn-default btn-sm float-xs-right"><i class="material-icons btn__icon--left">edit</i> Edit </a> 
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card">
+      <ul class="list-group list-group-fit">
+        <li class="list-group-item active">
+          <a href="#">All</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">Vue.js</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">NodeJs</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

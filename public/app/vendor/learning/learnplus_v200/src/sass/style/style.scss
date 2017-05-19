@@ -1,0 +1,61 @@
+///////////////
+// VARIABLES //
+///////////////
+
+@import './variables';
+
+////////////////////
+// DEFAULT STYLE  //
+////////////////////
+
+// Bootstrap 4
+@import 'bootstrap/scss/bootstrap';
+
+// Sidebar style
+@import 'sidebar-style-guide/sass/style';
+
+//////////////////
+// CUSTOM STYLE //
+//////////////////
+
+@import './blockquote';
+@import './breadcrumb';
+@import './button';
+@import './card';
+@import './dropdown';
+@import './footer';
+@import './forms';
+@import './heading';
+@import './helpers';
+@import './jumbotron';
+@import './layout';
+@import './list-group';
+@import './material-icons';
+@import './media';
+@import './pagination';
+@import './progress';
+@import './range';
+@import './rating';
+@import './switch';
+@import './tables';
+@import './tabs';
+@import './modal';
+@import './chart';
+
+// NAVBAR
+@import './navbar';
+
+// NAVBAR SKINS
+@import './navbar-dark';
+@import './navbar-light';
+
+// SIDEBAR COMPONENTS
+@import './sidebar';
+
+// SIDEBAR SKINS
+@import './sidebar-transparent';
+
+// PAGES
+@import './chat';
+@import './forum';
+@import './calendar';

@@ -1,0 +1,46 @@
+// replacement for .help-block (BS3)
+.text-help {
+  color: $text-muted;
+  margin-top: .325rem;
+  display: block;
+}
+
+// reset .input-group z-index (fixes overlapping .form-control)
+.input-group {
+  position: relative;
+  z-index: 0;
+}
+
+//////////////////////////
+// Custom form controls //
+//////////////////////////
+
+.custom-control {
+  > input {
+    &:checked ~ .custom-control-indicator {
+      background-color: $brand-primary;
+    }
+    &:focus ~ .custom-control-indicator {
+      box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem $brand-primary;
+    }
+    &:active ~ .custom-control-indicator {
+      background-color: lighten($brand-primary,20%);
+    }
+  }
+}
+.custom-checkbox {
+  input:indeterminate ~ .custom-control-indicator {
+    background-color: $brand-primary;
+  }
+}
+.custom-controls-stacked .custom-control {
+  float: none;
+}
+.custom-select:focus {
+  border-color: $brand-primary;
+}
+
+// reset .custom-file z-index (fixes overlapping .custom-file-control with the sidebar)
+.custom-file {
+  z-index: 0;
+}

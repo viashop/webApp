@@ -1,0 +1,25 @@
+---
+title: Instructor - Statement - Fixed layout
+slug: instructor-statement
+prefix: fixed-instructor-
+---
+{% extends "layouts/instructor/fixed.html" %}
+
+{% block page %}
+  {% include "partials/page.instructor-statement.html" %}
+{% endblock %}
+
+{% block vendor_styling %}
+   <!-- Datepicker -->
+  <link rel="stylesheet" href="examples/css/bootstrap-datepicker.min.css">
+{% endblock %}
+
+{% block vendor_scripts %}
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap-datepicker.min.js"></script>
+{% endblock%}
+
+{% block example_scripts %}
+  <!-- Init -->
+  <script src="examples/js/date-time.js"></script>
+{% endblock %}

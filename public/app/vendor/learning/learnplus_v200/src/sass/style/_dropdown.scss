@@ -1,0 +1,12 @@
+.dropdown-menu {
+  box-shadow: 0 0px 3px rgba(0,0,0, 0.1);
+}
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  > .material-icons {
+    align-self: center;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+}

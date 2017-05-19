@@ -1,0 +1,26 @@
+---
+title: Instructor - Forum thread
+slug: instructor-forum-thread
+prefix: instructor-
+---
+{% extends "layouts/instructor/fluid.html" %}
+
+{% block page %}
+  {% include "partials/page.student-forum-thread.html" %}
+{% endblock %}
+
+{% block vendor_styling %}
+  <!-- Required by summernote -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Summernote WYSIWYG -->
+  <link rel="stylesheet" href="examples/css/summernote.min.css">
+{% endblock %}
+
+{% block vendor_scripts %}
+  <script src="assets/vendor/summernote.min.js"></script>
+{% endblock%}
+
+{% block example_scripts %}
+  <script src="examples/js/summernote.js"></script>
+{% endblock %}
