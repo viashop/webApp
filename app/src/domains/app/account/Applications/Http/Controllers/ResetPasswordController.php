@@ -16,7 +16,7 @@ use Exception;
  * Class ResetPasswordController
  * @package Vialoja\Http\Controllers\Account
  */
-class ResetPasswordController extends Controller
+class ResetPasswordController extends BaseController
 {
     /**
      * @var RecoverPasswordRepository

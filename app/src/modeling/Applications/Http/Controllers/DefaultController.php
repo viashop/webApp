@@ -2,10 +2,11 @@
 
 namespace Modeling\Applications\Http\Controllers;
 
-use Modeling\Domains\Models\User\UserRepositoryInterface;
 use Illuminate\Http\Request;
+use Modeling\Domains\Models\User\UserRepositoryInterface;
 
-class DefaultController extends Controller
+
+class DefaultController extends BaseController
 {
 
     /**

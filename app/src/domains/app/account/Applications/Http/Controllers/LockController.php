@@ -5,7 +5,7 @@ namespace Account\Applications\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
 
-class LockController extends Controller
+class LockController extends BaseController
 {
     public function lock()
     {

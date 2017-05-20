@@ -5,7 +5,7 @@ namespace Admin\Applications\Http\Controllers;
 use Admin\Domains\Models\User\UserRepositoryInterface;
 use Illuminate\Http\Request;
 
-class DefaultController extends Controller
+class DefaultController extends BaseController
 {
 
     /**

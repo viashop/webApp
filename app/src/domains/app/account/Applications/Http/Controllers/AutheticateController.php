@@ -15,7 +15,7 @@ use Exception;
  * Class LoginController
  * @package Vialoja\Http\Controllers\Account
  */
-class AutheticateController extends Controller
+class AutheticateController extends BaseController
 {
 
     //use SessionBuilder;

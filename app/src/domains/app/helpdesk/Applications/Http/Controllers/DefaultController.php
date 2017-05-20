@@ -5,7 +5,7 @@ namespace Helpdesk\Applications\Http\Controllers;
 use Helpdesk\Domains\Models\User\UserRepositoryInterface;
 use Illuminate\Http\Request;
 
-class DefaultController extends Controller
+class DefaultController extends BaseController
 {
 
     /**

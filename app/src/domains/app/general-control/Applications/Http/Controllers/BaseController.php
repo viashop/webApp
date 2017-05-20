@@ -1,20 +1,19 @@
 <?php
 
-namespace Admin\Applications\Http\Controllers;
+namespace Control\Applications\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
-use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Vialoja\Core\Http\Controllers\AbstractController;
 
-class Controller extends BaseController
+class BaseController extends AbstractController
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
+    
     /**
      * @var string
      */
-    protected $viewNamespace = 'admin::';
+    protected $viewNamespace = 'control::';
 
 
     /**

@@ -14,7 +14,7 @@ use Exception;
  * Class RegisterController
  * @package Vialoja\Http\Controllers\Account
  */
-class RegisterController extends Controller
+class RegisterController extends BaseController
 {
 
     use SessionBuilder;
