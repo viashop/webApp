@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Infrastructures\Domains\Models\User;
+namespace Loojas\Account\Infrastructures\Domains\Models\User;
 
 use Account\Applications\Http\Request\RegisterRequest;
 use Account\Domains\Models\User\User;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modeling\Applications\Providers;
+namespace Loojas\Modeling\Applications\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 class RouteServiceProvider extends ServiceProvider
 {
 
-    protected $namespace = 'Modeling\Applications\Http\Controllers';
+    protected $namespace = 'Loojas\Modeling\Applications\Http\Controllers';
 
 
     /**
@@ -46,7 +46,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes()
     {
         Route::prefix('/modeling')
-            //->domain('api.vialoja.com.br')
+            //->domain('api.loojas.com.br')
             ->middleware('web')
             ->namespace($this->namespace)
             ->group(base_path('app/src/modeling/Applications/routes/web.php'));

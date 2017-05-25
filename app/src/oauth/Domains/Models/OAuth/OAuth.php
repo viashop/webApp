@@ -1,13 +1,13 @@
 <?php
 
-namespace OAuth\Domains\Models\OAuth;
+namespace Loojas\OAuth\Domains\Models\OAuth;
 
 use OAuth\Domains\Models\User\User;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class OAuth
- * @package Vialoja\Entities
+ * @package Loojas\Entities
  */
 class OAuth extends Model
 {

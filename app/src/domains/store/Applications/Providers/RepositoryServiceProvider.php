@@ -1,10 +1,10 @@
 <?php
 
-namespace Store\Applications\Providers;
+namespace Loojas\Store\Applications\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Store\Domains\Models\User\UserRepositoryInterface;
-use Store\Infrastructures\Domains\User\EloquentUserRepository;
+use Loojas\Store\Domains\Models\User\UserRepositoryInterface;
+use Loojas\Store\Infrastructures\Domains\User\EloquentUserRepository;
 
 
 class RepositoryServiceProvider extends ServiceProvider

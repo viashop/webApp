@@ -1,9 +1,9 @@
 <?php
 
-namespace Vialoja\Core\Http\Controllers\Tests;
+namespace Loojas\Core\Http\Controllers\Tests;
 
 use Illuminate\Http\Request;
-use Vialoja\Core\Http\Controllers\Controller;
+use Loojas\Core\Http\Controllers\Controller;
 use Correios;   
 
 class CorreiosController extends Controller

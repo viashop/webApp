@@ -1,6 +1,6 @@
 <?php
 
-namespace OAuth\Applications\Providers;
+namespace Loojas\OAuth\Applications\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use OAuth\Domains\Models\User\UserRepository;

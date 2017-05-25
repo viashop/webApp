@@ -12,7 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-    $factory->define(Vialoja\Domains\Entities\Users\User::class, function (Faker\Generator $faker) {
+    $factory->define(Loojas\Domains\Entities\Users\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [

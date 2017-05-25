@@ -1,6 +1,6 @@
 <?php
 
-namespace OAuth\Applications\Http\Controllers;
+namespace Loojas\OAuth\Applications\Http\Controllers;
 
 use Illuminate\Http\Request;
 use OAuth\Domains\Models\User\UserRepository;

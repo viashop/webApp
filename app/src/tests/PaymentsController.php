@@ -1,9 +1,9 @@
 <?php
 
-namespace Vialoja\Core\Http\Controllers\Tests;
+namespace Loojas\Core\Http\Controllers\Tests;
 
 use Illuminate\Http\Request;
-use Vialoja\Core\Http\Controllers\Controller;
+use Loojas\Core\Http\Controllers\Controller;
 use Modeling\Domains\Models\User\User;
 use Excel;
 
@@ -38,7 +38,7 @@ class PaymentsController extends Controller
 
             // Set the spreadsheet title, creator, and description
             $excel->setTitle('Usuários');
-            $excel->setCreator('Vialoja')->setCompany('Nome Loja, LLC');
+            $excel->setCreator('Loojas')->setCompany('Nome Loja, LLC');
             $excel->setDescription('Base de Usuários');
 
             //http://stackoverflow.com/questions/25998397/laravel-excel-exporting-from-a-model-styling-issues

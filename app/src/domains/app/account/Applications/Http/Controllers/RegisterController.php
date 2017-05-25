@@ -1,18 +1,18 @@
 <?php
 
-namespace Account\Applications\Http\Controllers;
+namespace Loojas\Account\Applications\Http\Controllers;
 
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Config;
-use Account\Applications\Http\Request\RegisterRequest;
-use Account\Infrastructures\Storage\SessionBuilder;
-use Account\Domains\Models\User\UserService;
+use Loojas\Account\Applications\Http\Request\RegisterRequest;
+use Loojas\Account\Infrastructures\Storage\SessionBuilder;
+use Loojas\Account\Domains\Models\User\UserService;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Exception;
 
 /**
  * Class RegisterController
- * @package Vialoja\Http\Controllers\Account
+ * @package Loojas\Http\Controllers\Account
  */
 class RegisterController extends BaseController
 {

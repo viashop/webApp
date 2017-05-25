@@ -1,13 +1,13 @@
 <?php
 
-namespace Account\Infrastructures\Storage;
+namespace Loojas\Account\Infrastructures\Storage;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
 /**
  * Class SessionBuilder
- * @package Vialoja\Traits\Storage
+ * @package Loojas\Traits\Storage
  */
 trait SessionBuilder
 {

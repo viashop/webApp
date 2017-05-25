@@ -3081,16 +3081,16 @@
             "time": "2016-09-20 12:50:39"
         },
         {
-            "name": "vialoja/helpers",
+            "name": "loojas/helpers",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vialoja/helpers.git",
+                "url": "https://github.com/loojas/helpers.git",
                 "reference": "4099cb62a58decc003ac874902f00ad689beb226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vialoja/helpers/zipball/4099cb62a58decc003ac874902f00ad689beb226",
+                "url": "https://api.github.com/repos/loojas/helpers/zipball/4099cb62a58decc003ac874902f00ad689beb226",
                 "reference": "4099cb62a58decc003ac874902f00ad689beb226",
                 "shasum": ""
             },
@@ -3104,7 +3104,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Vialoja\\Helpers\\": "src/Vialoja/Helpers"
+                    "Loojas\\Helpers\\": "src/Loojas/Helpers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3117,7 +3117,7 @@
                     "role": "creator"
                 }
             ],
-            "description": "Vialoja Helpers",
+            "description": "Loojas Helpers",
             "time": "2017-04-21 04:38:04"
         },
         {
@@ -4694,7 +4694,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "oriceon/oauth-5-laravel": 20,
-        "vialoja/helpers": 20
+        "loojas/helpers": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

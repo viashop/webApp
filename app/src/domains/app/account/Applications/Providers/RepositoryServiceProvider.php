@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Applications\Providers;
+namespace Loojas\Account\Applications\Providers;
 
 use Account\Domains\Models\Role\RoleRepository;
 use Illuminate\Support\ServiceProvider;

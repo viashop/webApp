@@ -1,10 +1,10 @@
 <?php
 
-namespace Wizard\Applications\Providers;
+namespace Loojas\Wizard\Applications\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Wizard\Domains\Models\User\UserRepositoryInterface;
-use Wizard\Infrastructures\Domains\User\EloquentUserRepository;
+use Loojas\Wizard\Domains\Models\User\UserRepositoryInterface;
+use Loojas\Wizard\Infrastructures\Domains\User\EloquentUserRepository;
 
 
 class RepositoryServiceProvider extends ServiceProvider

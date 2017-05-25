@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Domains\Models\Permission;
+namespace Loojas\Account\Domains\Models\Permission;
 
 use Account\Domains\Models\Role\Role;
 use Illuminate\Database\Eloquent\Model;

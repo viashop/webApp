@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories\Eloquent;
+namespace Loojas\App\Repositories\Eloquent;
 
 use App\Produto;
 use App\Repositories\AbstractRepository;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Admin\Applications\Http\Controllers;
+namespace Loojas\Admin\Applications\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Vialoja\Core\Http\Controllers\AbstractController;
+use Loojas\Core\Http\Controllers\AbstractController;
 
 class BaseController extends AbstractController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modeling\Domains\Models\User;
+namespace Loojas\Modeling\Domains\Models\User;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

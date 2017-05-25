@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Vialoja\Core\Foundation\Application(
+$app = new Loojas\Core\Foundation\Application(
    realpath(__DIR__.'/../')
 );
 
@@ -33,17 +33,17 @@ $app = new Vialoja\Core\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    Vialoja\Core\Http\Kernel::class
+    Loojas\Core\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Vialoja\Core\Console\Kernel::class
+    Loojas\Core\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    Vialoja\Core\Exceptions\Handler::class
+    Loojas\Core\Exceptions\Handler::class
 );
 
 /*

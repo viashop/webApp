@@ -1,6 +1,6 @@
 <?php
 
-namespace Homepage\Applications\Providers;
+namespace Loojas\Homepage\Applications\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Homepage\Domains\Models\User\UserRepositoryInterface;

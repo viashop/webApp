@@ -1,11 +1,11 @@
 <?php
 
-namespace OAuth\Applications\Http\Controllers;
+namespace Loojas\OAuth\Applications\Http\Controllers;
 
-use Vialoja\Contracts\Repositories\OAuth\OAuthInterface;
-use Vialoja\Http\Controllers\Controller;
-use Vialoja\Repositories\OAuth\TwitterRepository;
-use Vialoja\Traits\Storage\StorageDataUser;
+use Loojas\Contracts\Repositories\OAuth\OAuthInterface;
+use Loojas\Http\Controllers\Controller;
+use Loojas\Repositories\OAuth\TwitterRepository;
+use Loojas\Traits\Storage\StorageDataUser;
 use Artdarek\OAuth\OAuth;
 use Exception;
 use InvalidArgumentException;
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Config;
 
 /**
  * Class TwitterController
- * @package Vialoja\Http\Controllers\Account\OAuth
+ * @package Loojas\Http\Controllers\Account\OAuth
  */
 class TwitterController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace OAuth\Domains\Models\OAuthUser;
+namespace Loojas\OAuth\Domains\Models\OAuthUser;
 
 use Illuminate\Database\Eloquent\Model;
 

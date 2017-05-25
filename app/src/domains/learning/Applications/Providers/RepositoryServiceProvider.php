@@ -1,6 +1,6 @@
 <?php
 
-namespace Learning\Applications\Providers;
+namespace Loojas\Learning\Applications\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Learning\Domains\Models\User\UserRepositoryInterface;

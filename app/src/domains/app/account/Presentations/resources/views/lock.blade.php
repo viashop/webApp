@@ -9,7 +9,7 @@
                 <div class="card card-profile card-hidden">
                     <div class="card-avatar">
                         <a rel="nofollow" href="#">
-                            <img class="avatar" src="{{ Gravatar::get('example@vialoja.com') }}" alt="...">
+                            <img class="avatar" src="{{ Gravatar::get('example@loojas.com') }}" alt="...">
                         </a>
                     </div>
                     <div class="card-content">

@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Applications\Http\Request;
+namespace Loojas\Account\Applications\Http\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace OAuth\Infrastructures\Domains\User;
+namespace Loojas\OAuth\Infrastructures\Domains\User;
 
 use OAuth\Domains\Models\User\User;
 use OAuth\Domains\Models\User\UserRepository;

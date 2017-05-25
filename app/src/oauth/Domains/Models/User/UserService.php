@@ -1,20 +1,20 @@
 <?php
 
-namespace Account\Domains\Models\User;
+namespace Loojas\Account\Domains\Models\User;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Hash;
 use Account\Applications\Http\Request\RegisterRequest;
 use Account\Applications\Http\Request\AuthenticateRequest;
 use Account\Domains\Models\Role\RoleRepository;
-use Vialoja\Helpers\ValidatePassword;
+use Loojas\Helpers\ValidatePassword;
 
 
-//use Vialoja\Events\Emails\EventNotifyNewUserRegistered;
-//use Vialoja\Events\Logs\User\EventActivityRecordUserLogged;
-//use Vialoja\Events\Logs\User\EventActivityRecordUserLoginInvalid;
-//use Vialoja\Events\Logs\User\EventActivityRecordUserLoginPasswordInvalid;
-//use Vialoja\Events\Logs\User\EventActivityRecordUserRegistered;
+//use Loojas\Events\Emails\EventNotifyNewUserRegistered;
+//use Loojas\Events\Logs\User\EventActivityRecordUserLogged;
+//use Loojas\Events\Logs\User\EventActivityRecordUserLoginInvalid;
+//use Loojas\Events\Logs\User\EventActivityRecordUserLoginPasswordInvalid;
+//use Loojas\Events\Logs\User\EventActivityRecordUserRegistered;
 
 
 use Exception;

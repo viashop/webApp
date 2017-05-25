@@ -1,10 +1,10 @@
 <?php
 
-namespace Control\Infrastructures\Domains\User;
+namespace Loojas\Control\Infrastructures\Domains\User;
 
 use Control\Domains\Models\User\User;
 use Control\Domains\Models\User\UserRepositoryInterface;
-use Vialoja\Core\Repositories\EloquentAbstractRepository;
+use Loojas\Core\Repositories\EloquentAbstractRepository;
 
 /**
  * Class EloquentUserRepository

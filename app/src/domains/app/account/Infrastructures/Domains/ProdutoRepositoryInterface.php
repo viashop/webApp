@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Repositories\Contracts;
+namespace Loojas\App\Repositories\Contracts;
 
 interface ProdutoRepositoryInterface
 {

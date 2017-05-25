@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Domains\Models\Role;
+namespace Loojas\Account\Domains\Models\Role;
 
 
 interface RoleRepository

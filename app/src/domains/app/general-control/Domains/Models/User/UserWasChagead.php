@@ -1,6 +1,6 @@
 <?php
 
-namespace Control\Domains\Models\User;
+namespace Loojas\Control\Domains\Models\User;
 
 class UserWasChagead
 {

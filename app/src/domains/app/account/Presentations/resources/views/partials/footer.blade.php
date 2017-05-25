@@ -29,7 +29,7 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>
-            <a href="{{ Config::get('constants-links.HTTP_VIALOJA') }}">Vialoja</a>
+            <a href="{{ Config::get('constants-links.HTTP_VIALOJA') }}">Loojas</a>
         </p>
     </div>
 </footer>

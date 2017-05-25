@@ -1,8 +1,8 @@
 <?php
 
-namespace Store\Applications\Http\Controllers;
+namespace Loojas\Store\Applications\Http\Controllers;
 
-use Store\Domains\Models\User\UserRepositoryInterface;
+use Loojas\Store\Domains\Models\User\UserRepositoryInterface;
 use Illuminate\Http\Request;
 
 class DefaultController extends BaseController

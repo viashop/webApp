@@ -1,8 +1,8 @@
 <?php
 
-namespace Helpdesk\Applications\Http\Controllers;
+namespace Loojas\Helpdesk\Applications\Http\Controllers;
 
-use Helpdesk\Domains\Models\User\UserRepositoryInterface;
+use Loojas\Helpdesk\Domains\Models\User\UserRepositoryInterface;
 use Illuminate\Http\Request;
 
 class DefaultController extends BaseController

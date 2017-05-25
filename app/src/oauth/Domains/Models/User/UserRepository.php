@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Domains\Models\User;
+namespace Loojas\Account\Domains\Models\User;
 
 interface UserRepository
 {

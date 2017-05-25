@@ -1,19 +1,19 @@
 <?php
 
-namespace Account\Applications\Http\Controllers;
+namespace Loojas\Account\Applications\Http\Controllers;
 
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Http\Request;
-// use Account\Applications\Http\Request\AuthenticateRequest;
-// use Account\Domains\Models\User\UserService;
-// use Account\Infrastructures\Storage\SessionBuilder;
+// use Loojas\Account\Applications\Http\Request\AuthenticateRequest;
+// use Loojas\Account\Domains\Models\User\UserService;
+// use Loojas\Account\Infrastructures\Storage\SessionBuilder;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Exception;
 
 /**
  * Class LoginController
- * @package Vialoja\Http\Controllers\Account
+ * @package Loojas\Http\Controllers\Account
  */
 class AutheticateController extends BaseController
 {

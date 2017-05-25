@@ -1,12 +1,12 @@
 <?php
 
-namespace OAuth\Applications\Http\Controllers;
+namespace Loojas\OAuth\Applications\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
-use Vialoja\Contracts\Repositories\OAuth\OAuthInterface;
-use Vialoja\Repositories\OAuth\FacebookRepository;
-use Vialoja\Traits\Storage\StorageDataUser;
+use Loojas\Contracts\Repositories\OAuth\OAuthInterface;
+use Loojas\Repositories\OAuth\FacebookRepository;
+use Loojas\Traits\Storage\StorageDataUser;
 
 use Artdarek\OAuth\OAuth;
 use Exception;

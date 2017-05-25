@@ -1,6 +1,6 @@
 <?php
 
-namespace OAuth\Domains\Models\Role;
+namespace Loojas\OAuth\Domains\Models\Role;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

@@ -171,41 +171,41 @@ return [
         /*
          * Application Service Providers...
          */
-        Vialoja\Core\Providers\AppServiceProvider::class,
-        Vialoja\Core\Providers\AuthServiceProvider::class,
-        // Vialoja\Core\Providers\BroadcastServiceProvider::class,
-        Vialoja\Core\Providers\EventServiceProvider::class,
-        //Vialoja\Core\Providers\RouteServiceProvider::class,
+        Loojas\Core\Providers\AppServiceProvider::class,
+        Loojas\Core\Providers\AuthServiceProvider::class,
+        // Loojas\Core\Providers\BroadcastServiceProvider::class,
+        Loojas\Core\Providers\EventServiceProvider::class,
+        //Loojas\Core\Providers\RouteServiceProvider::class,
 
         /*
          * Modularization SRC Service Providers...
          */ 
-        Account\Applications\Providers\RouteServiceProvider::class,
-        Account\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Account\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Account\Applications\Providers\RepositoryServiceProvider::class,
 
-        Control\Applications\Providers\RouteServiceProvider::class,
-        Control\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Control\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Control\Applications\Providers\RepositoryServiceProvider::class,
 
-        OAuth\Applications\Providers\RouteServiceProvider::class,
-        OAuth\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\OAuth\Applications\Providers\RouteServiceProvider::class,
+        Loojas\OAuth\Applications\Providers\RepositoryServiceProvider::class,
 
-        Wizard\Applications\Providers\RouteServiceProvider::class,
-        Wizard\Applications\Providers\RepositoryServiceProvider::class,  
+        Loojas\Wizard\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Wizard\Applications\Providers\RepositoryServiceProvider::class,  
 
-        Admin\Applications\Providers\RouteServiceProvider::class,
-        Admin\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Admin\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Admin\Applications\Providers\RepositoryServiceProvider::class,
 
-        Helpdesk\Applications\Providers\RouteServiceProvider::class,
-        Helpdesk\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Helpdesk\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Helpdesk\Applications\Providers\RepositoryServiceProvider::class,
 
-        Homepage\Applications\Providers\RouteServiceProvider::class,
-        Homepage\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Homepage\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Homepage\Applications\Providers\RepositoryServiceProvider::class,
 
-        Learning\Applications\Providers\RouteServiceProvider::class,
-        Learning\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Learning\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Learning\Applications\Providers\RepositoryServiceProvider::class,
 
-        Store\Applications\Providers\RouteServiceProvider::class,
-        Store\Applications\Providers\RepositoryServiceProvider::class,
+        Loojas\Store\Applications\Providers\RouteServiceProvider::class,
+        Loojas\Store\Applications\Providers\RepositoryServiceProvider::class,
 
         /**
          * Third-party packages Service Providers

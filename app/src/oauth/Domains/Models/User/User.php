@@ -1,6 +1,6 @@
 <?php
 
-namespace OAuth\Domains\Models\User;
+namespace Loojas\OAuth\Domains\Models\User;
 
 use Gate;
 use Illuminate\Database\Eloquent\SoftDeletes;

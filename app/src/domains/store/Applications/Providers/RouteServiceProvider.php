@@ -1,6 +1,6 @@
 <?php
 
-namespace Store\Applications\Providers;
+namespace Loojas\Store\Applications\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 class RouteServiceProvider extends ServiceProvider
 {
 
-    protected $namespace = 'Store\Applications\Http\Controllers';
+    protected $namespace = 'Loojas\Store\Applications\Http\Controllers';
 
 
     /**

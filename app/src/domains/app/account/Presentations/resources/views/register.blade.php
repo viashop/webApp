@@ -42,7 +42,7 @@
                                         <div class="description">
                                             <h4 class="info-title">Comunidade de Ajuda</h4>
                                             <p class="description">
-                                                A  comunidade Vialoja é um espaço de discussão gratuito e ela é aberta a todos os lojistas para trocas de experiências!
+                                                A  comunidade Loojas é um espaço de discussão gratuito e ela é aberta a todos os lojistas para trocas de experiências!
                                             </p>
                                         </div>
                                     </div>

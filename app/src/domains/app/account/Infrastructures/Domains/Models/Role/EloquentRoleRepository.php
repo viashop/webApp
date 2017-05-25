@@ -1,6 +1,6 @@
 <?php
 
-namespace Account\Infrastructures\Domains\Models\Role;
+namespace Loojas\Account\Infrastructures\Domains\Models\Role;
 
 use Account\Domains\Models\Role\Role;
 use Account\Domains\Models\Role\RoleRepository;
